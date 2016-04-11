@@ -71,11 +71,6 @@
   }
 }
 
-- (void)timer_callback
-{
-  NSLog(@"Timer %@", [NSThread currentThread]);
-}
-
 - (void)dump
 {
   NSLog(@"%@",[NSThread callStackSymbols]);

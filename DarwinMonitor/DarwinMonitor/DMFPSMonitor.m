@@ -6,10 +6,10 @@
 //  Copyright © 2015年 oenius. All rights reserved.
 //
 
-#import "MAFPSMonitor.h"
+#import "DMFPSMonitor.h"
 #import <UIKit/UIKit.h>
 
-@interface MAFPSMonitor()
+@interface DMFPSMonitor()
 
 @property (nonatomic, strong)CADisplayLink *displayLink;
 
@@ -19,7 +19,7 @@
 
 @end
 
-@implementation MAFPSMonitor
+@implementation DMFPSMonitor
 
 - (instancetype)init
 {

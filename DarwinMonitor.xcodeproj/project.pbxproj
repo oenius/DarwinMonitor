@@ -16,11 +16,11 @@
 		1A5C85961CB7FBF500271CD2 /* DarwinMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C85951CB7FBF500271CD2 /* DarwinMonitorTests.m */; };
 		1A5C85A11CB7FBF500271CD2 /* DarwinMonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C85A01CB7FBF500271CD2 /* DarwinMonitorUITests.m */; };
 		1A5C85B11CB7FFF400271CD2 /* DarwinMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C85B01CB7FFF400271CD2 /* DarwinMonitor.m */; };
-		1A6116D91CB967F1005C0464 /* MABatteryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6116CA1CB967F1005C0464 /* MABatteryMonitor.m */; };
+		1A6116D91CB967F1005C0464 /* DMBatteryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6116CA1CB967F1005C0464 /* DMBatteryMonitor.m */; };
 		1A6116DA1CB967F1005C0464 /* DMCPUMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6116CC1CB967F1005C0464 /* DMCPUMonitor.m */; };
-		1A6116DB1CB967F1005C0464 /* MAFPSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6116CE1CB967F1005C0464 /* MAFPSMonitor.m */; };
-		1A6116DF1CB967F1005C0464 /* MANetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6116D61CB967F1005C0464 /* MANetworkMonitor.m */; };
-		1A6116E01CB967F1005C0464 /* MARAMMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6116D81CB967F1005C0464 /* MARAMMonitor.m */; };
+		1A6116DB1CB967F1005C0464 /* DMFPSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6116CE1CB967F1005C0464 /* DMFPSMonitor.m */; };
+		1A6116DF1CB967F1005C0464 /* DMNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6116D61CB967F1005C0464 /* DMNetworkMonitor.m */; };
+		1A6116E01CB967F1005C0464 /* DMRAMMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6116D81CB967F1005C0464 /* DMRAMMonitor.m */; };
 		1A6116E31CBB47AD005C0464 /* DMDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6116E21CBB47AD005C0464 /* DMDumper.m */; };
 		1A6116E61CBB823E005C0464 /* DMRunloopMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6116E51CBB823E005C0464 /* DMRunloopMonitor.m */; };
 /* End PBXBuildFile section */
@@ -61,16 +61,16 @@
 		1A5C85A21CB7FBF500271CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A5C85AF1CB7FFF400271CD2 /* DarwinMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarwinMonitor.h; sourceTree = "<group>"; };
 		1A5C85B01CB7FFF400271CD2 /* DarwinMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarwinMonitor.m; sourceTree = "<group>"; };
-		1A6116C91CB967F1005C0464 /* MABatteryMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABatteryMonitor.h; sourceTree = "<group>"; };
-		1A6116CA1CB967F1005C0464 /* MABatteryMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABatteryMonitor.m; sourceTree = "<group>"; };
+		1A6116C91CB967F1005C0464 /* DMBatteryMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBatteryMonitor.h; sourceTree = "<group>"; };
+		1A6116CA1CB967F1005C0464 /* DMBatteryMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBatteryMonitor.m; sourceTree = "<group>"; };
 		1A6116CB1CB967F1005C0464 /* DMCPUMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCPUMonitor.h; sourceTree = "<group>"; };
 		1A6116CC1CB967F1005C0464 /* DMCPUMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCPUMonitor.m; sourceTree = "<group>"; };
-		1A6116CD1CB967F1005C0464 /* MAFPSMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFPSMonitor.h; sourceTree = "<group>"; };
-		1A6116CE1CB967F1005C0464 /* MAFPSMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFPSMonitor.m; sourceTree = "<group>"; };
-		1A6116D51CB967F1005C0464 /* MANetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANetworkMonitor.h; sourceTree = "<group>"; };
-		1A6116D61CB967F1005C0464 /* MANetworkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANetworkMonitor.m; sourceTree = "<group>"; };
-		1A6116D71CB967F1005C0464 /* MARAMMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MARAMMonitor.h; sourceTree = "<group>"; };
-		1A6116D81CB967F1005C0464 /* MARAMMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MARAMMonitor.m; sourceTree = "<group>"; };
+		1A6116CD1CB967F1005C0464 /* DMFPSMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMFPSMonitor.h; sourceTree = "<group>"; };
+		1A6116CE1CB967F1005C0464 /* DMFPSMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMFPSMonitor.m; sourceTree = "<group>"; };
+		1A6116D51CB967F1005C0464 /* DMNetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNetworkMonitor.h; sourceTree = "<group>"; };
+		1A6116D61CB967F1005C0464 /* DMNetworkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNetworkMonitor.m; sourceTree = "<group>"; };
+		1A6116D71CB967F1005C0464 /* DMRAMMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMRAMMonitor.h; sourceTree = "<group>"; };
+		1A6116D81CB967F1005C0464 /* DMRAMMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMRAMMonitor.m; sourceTree = "<group>"; };
 		1A6116E11CBB47AD005C0464 /* DMDumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDumper.h; sourceTree = "<group>"; };
 		1A6116E21CBB47AD005C0464 /* DMDumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDumper.m; sourceTree = "<group>"; };
 		1A6116E41CBB823E005C0464 /* DMRunloopMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMRunloopMonitor.h; sourceTree = "<group>"; };
@@ -168,16 +168,16 @@
 		1A5C85AE1CB7FFD500271CD2 /* DarwinMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				1A6116C91CB967F1005C0464 /* MABatteryMonitor.h */,
-				1A6116CA1CB967F1005C0464 /* MABatteryMonitor.m */,
+				1A6116C91CB967F1005C0464 /* DMBatteryMonitor.h */,
+				1A6116CA1CB967F1005C0464 /* DMBatteryMonitor.m */,
 				1A6116CB1CB967F1005C0464 /* DMCPUMonitor.h */,
 				1A6116CC1CB967F1005C0464 /* DMCPUMonitor.m */,
-				1A6116CD1CB967F1005C0464 /* MAFPSMonitor.h */,
-				1A6116CE1CB967F1005C0464 /* MAFPSMonitor.m */,
-				1A6116D51CB967F1005C0464 /* MANetworkMonitor.h */,
-				1A6116D61CB967F1005C0464 /* MANetworkMonitor.m */,
-				1A6116D71CB967F1005C0464 /* MARAMMonitor.h */,
-				1A6116D81CB967F1005C0464 /* MARAMMonitor.m */,
+				1A6116CD1CB967F1005C0464 /* DMFPSMonitor.h */,
+				1A6116CE1CB967F1005C0464 /* DMFPSMonitor.m */,
+				1A6116D51CB967F1005C0464 /* DMNetworkMonitor.h */,
+				1A6116D61CB967F1005C0464 /* DMNetworkMonitor.m */,
+				1A6116D71CB967F1005C0464 /* DMRAMMonitor.h */,
+				1A6116D81CB967F1005C0464 /* DMRAMMonitor.m */,
 				1A5C85AF1CB7FFF400271CD2 /* DarwinMonitor.h */,
 				1A5C85B01CB7FFF400271CD2 /* DarwinMonitor.m */,
 				1A6116E11CBB47AD005C0464 /* DMDumper.h */,
@@ -319,12 +319,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A6116E61CBB823E005C0464 /* DMRunloopMonitor.m in Sources */,
-				1A6116D91CB967F1005C0464 /* MABatteryMonitor.m in Sources */,
-				1A6116DF1CB967F1005C0464 /* MANetworkMonitor.m in Sources */,
-				1A6116E01CB967F1005C0464 /* MARAMMonitor.m in Sources */,
+				1A6116D91CB967F1005C0464 /* DMBatteryMonitor.m in Sources */,
+				1A6116DF1CB967F1005C0464 /* DMNetworkMonitor.m in Sources */,
+				1A6116E01CB967F1005C0464 /* DMRAMMonitor.m in Sources */,
 				1A5C85831CB7FBF500271CD2 /* ViewController.m in Sources */,
 				1A5C85801CB7FBF500271CD2 /* AppDelegate.m in Sources */,
-				1A6116DB1CB967F1005C0464 /* MAFPSMonitor.m in Sources */,
+				1A6116DB1CB967F1005C0464 /* DMFPSMonitor.m in Sources */,
 				1A5C857D1CB7FBF500271CD2 /* main.m in Sources */,
 				1A6116E31CBB47AD005C0464 /* DMDumper.m in Sources */,
 				1A5C85B11CB7FFF400271CD2 /* DarwinMonitor.m in Sources */,

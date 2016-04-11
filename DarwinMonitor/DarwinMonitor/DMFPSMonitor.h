@@ -9,8 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface MAFPSMonitor : NSObject
+@interface DMFPSMonitor : NSObject
 
 @property (nonatomic, copy) void(^fpsBlock)(CGFloat);
 
 @end
+ 

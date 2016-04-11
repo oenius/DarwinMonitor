@@ -9,15 +9,15 @@
 #import <mach/mach_host.h>
 #import <UIKit/UIKit.h>
 
-#import "MARAMMonitor.h"
+#import "DMRAMMonitor.h"
 
-@interface MARAMMonitor()
+@interface DMRAMMonitor()
 
 @property (nonatomic, strong)NSTimer *timer;
 
 @end
 
-@implementation MARAMMonitor
+@implementation DMRAMMonitor
 
 - (instancetype)init
 {

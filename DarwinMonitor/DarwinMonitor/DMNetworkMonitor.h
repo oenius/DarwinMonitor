@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MANetworkMonitor : NSObject
+@interface DMNetworkMonitor : NSObject
 
 @end

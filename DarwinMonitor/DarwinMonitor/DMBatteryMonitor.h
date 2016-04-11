@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MABatteryMonitor : NSObject
+@interface DMBatteryMonitor : NSObject
 
 @end

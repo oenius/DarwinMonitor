@@ -6,8 +6,8 @@
 //  Copyright © 2015年 oenius. All rights reserved.
 //
 
-#import "MANetworkMonitor.h"
+#import "DMNetworkMonitor.h"
 
-@implementation MANetworkMonitor
+@implementation DMNetworkMonitor
 
 @end

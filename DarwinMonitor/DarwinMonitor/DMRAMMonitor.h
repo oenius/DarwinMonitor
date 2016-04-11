@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MARAMMonitor : NSObject
+@interface DMRAMMonitor : NSObject
 #define B_TO_KB(a)      ((a) / 1024.0)
 #define B_TO_MB(a)      (B_TO_KB(a) / 1024.0)
 #define B_TO_GB(a)      (B_TO_MB(a) / 1024.0)

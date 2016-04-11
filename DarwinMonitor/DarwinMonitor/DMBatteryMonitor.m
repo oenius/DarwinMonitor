@@ -6,8 +6,8 @@
 //  Copyright © 2015年 oenius. All rights reserved.
 //
 
-#import "MABatteryMonitor.h"
+#import "DMBatteryMonitor.h"
 
-@implementation MABatteryMonitor
+@implementation DMBatteryMonitor
 
 @end
