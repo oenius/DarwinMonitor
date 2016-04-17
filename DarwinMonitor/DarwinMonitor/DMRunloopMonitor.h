@@ -10,6 +10,8 @@
 
 @interface DMRunloopMonitor : NSObject
 
+@property (nonatomic, copy)void(^handleBadHappened)(void);
+
 - (void)start;
 
 @end

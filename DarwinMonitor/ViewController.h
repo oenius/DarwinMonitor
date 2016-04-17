@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+static pthread_t maint;
+
 @interface ViewController : UIViewController
 
 

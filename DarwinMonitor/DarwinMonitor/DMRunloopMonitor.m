@@ -64,6 +64,7 @@ static NSTimeInterval interval;
     if(interval > 2)
     {
       NSLog(@"bad bad happed");
+      if(self.handleBadHappened) self.handleBadHappened();
       _runloopBegin = NO;
     }
     

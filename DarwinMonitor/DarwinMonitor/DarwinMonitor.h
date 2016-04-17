@@ -8,6 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(...)
+#endif
+
+@protocol DMPrintableDelegate <NSObject>
+
+- (void)monitor:(id)monitor write:(NSString *)name info:(NSString *)info atTime:(NSDate *)time;
+
+@end
+
 typedef NS_OPTIONS(NSInteger, DMMonitorOptions) {
   DMCPUActivityMonitor = (1UL << 0),
   DMRAMActivityMonitor = (1UL << 1),

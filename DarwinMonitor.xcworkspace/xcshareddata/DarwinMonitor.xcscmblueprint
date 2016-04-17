@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2D5A87079D79B1839DEEC9260ED76DB88C6178A1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C7C6F7063BDDA3DE8369DA328451FE1D0A969DD5" : 0,
+    "2D5A87079D79B1839DEEC9260ED76DB88C6178A1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "72829E81-6CB1-4110-BB05-9D1856B9A5D7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C7C6F7063BDDA3DE8369DA328451FE1D0A969DD5" : "plcrashreporter\/",
+    "2D5A87079D79B1839DEEC9260ED76DB88C6178A1" : "DarwinMonitor\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DarwinMonitor",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DarwinMonitor.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/oenius\/DarwinMonitor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D5A87079D79B1839DEEC9260ED76DB88C6178A1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/oenius\/plcrashreporter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C7C6F7063BDDA3DE8369DA328451FE1D0A969DD5"
+    }
+  ]
+}

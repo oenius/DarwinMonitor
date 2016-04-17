@@ -10,6 +10,27 @@
 
 #import "DMCPUMonitor.h"
 #import "DMRunloopMonitor.h"
+#import "DMNetworkMonitor.h"
+#import <stdlib.h>
+#import <fcntl.h>
+#import <errno.h>
+#import <string.h>
+#import <stdbool.h>
+#include <pthread.h>
+#include <mach/mach.h>
+#import <dlfcn.h>
+
+#import <sys/sysctl.h>
+#import <sys/time.h>
+
+#import <mach-o/dyld.h>
+#include <execinfo.h>
+
+#import <libkern/OSAtomic.h>
+
+#import "ViewController.h"
+#import <SVProgressHUD.h>
+
 
 @interface DarwinMonitor()
 
@@ -36,7 +57,7 @@
   self = [super init];
   if(self)
   {
-   
+    
   }
   return self;
 }
@@ -55,8 +76,7 @@
     
     __weak typeof(self) weakSelf = self;
     [self.cpuMonitor setCpuBlock:^(CGFloat percent) {
-
-      if(percent > 99.99f)
+      if(percent > 59.f)
       {
         [weakSelf dump];
       }
@@ -66,14 +86,42 @@
     
      self.runloopMonitor = [[DMRunloopMonitor alloc]init];
     [self.runloopMonitor start];
+    [self.runloopMonitor setHandleBadHappened:^{
+      [weakSelf dump];
+    }];
     
+    [DMNetworkMonitor monitor];
     [[NSRunLoop currentRunLoop] run];
   }
 }
 
 - (void)dump
 {
-  NSLog(@"%@",[NSThread callStackSymbols]);
+//   raise(SIGSEGV);
+}
+
++ (NSArray *)backtrace
+{
+  void* callstack[128];
+  int frames = backtrace(callstack, 128);
+  char **strs = backtrace_symbols(callstack, frames);
+  
+  int i;
+  NSMutableArray *backtrace = [NSMutableArray arrayWithCapacity:frames];
+  for (i = 0;
+       i < MIN(0 + 10, frames);
+       ++i) {
+    [backtrace addObject:[NSString stringWithUTF8String:strs[i]]];
+  }
+  free(strs);
+  
+  return backtrace;
+}
+
+
+- (void)setOptions:(DMMonitorOptions)options
+{
+  
 }
 
 @end

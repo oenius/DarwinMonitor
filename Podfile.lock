@@ -1,0 +1,16 @@
+PODS:
+  - Masonry (1.0.0)
+  - Reveal-iOS-SDK (1.0.3)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - Masonry (~> 1.0.0)
+  - Reveal-iOS-SDK (= 1.0.3)
+  - SVProgressHUD (~> 2.0.3)
+
+SPEC CHECKSUMS:
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  Reveal-iOS-SDK: 714a1cd88b388759b870930ffb9708fcfa04a083
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+COCOAPODS: 0.39.0

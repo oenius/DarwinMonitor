@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DMControlView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XyS-St-Dya">
+                    <rect key="frame" x="278" y="18" width="45" height="45"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="O9x-wT-zem"/>
+                        <constraint firstAttribute="height" constant="45" id="SO9-21-r32"/>
+                    </constraints>
+                    <state key="normal" title="网络" image="icon_assistant_network.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="lIY-gl-9z4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMk-Na-ttO">
+                    <rect key="frame" x="18" y="81" width="45" height="45"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="UCc-Mm-j85"/>
+                        <constraint firstAttribute="width" constant="45" id="dma-oi-gfN"/>
+                    </constraints>
+                    <state key="normal" image="icon_assistant_battery.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="IZi-RC-wzR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6l-YL-mVX">
+                    <rect key="frame" x="537" y="81" width="45" height="45"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="Cfr-2I-j5z"/>
+                        <constraint firstAttribute="height" constant="45" id="UQ9-Ru-EZo"/>
+                    </constraints>
+                    <state key="normal" image="icon_assistant_device.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="PrZ-gA-hzh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2vb-9e-e4a">
+                    <rect key="frame" x="537" y="474" width="45" height="45"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="569-Ia-E5y"/>
+                        <constraint firstAttribute="width" constant="45" id="kxL-zb-Bro"/>
+                    </constraints>
+                    <state key="normal" image="icon_assistant_crash.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClicked:" destination="iN0-l3-epB" eventType="touchDragInside" id="Aic-P2-Ixj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Kv-37-Jrm">
+                    <rect key="frame" x="278" y="537" width="45" height="45"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="8AU-No-Lar"/>
+                        <constraint firstAttribute="width" constant="45" id="aPm-4H-kaU"/>
+                    </constraints>
+                    <state key="normal" image="icon_assistant_ui.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="iYG-Bh-SJY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxW-wA-eg2">
+                    <rect key="frame" x="18" y="474" width="45" height="45"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="CMt-Nc-mog"/>
+                        <constraint firstAttribute="height" constant="45" id="nUZ-Su-KQy"/>
+                    </constraints>
+                    <state key="normal" image="icon_assistant_cpu.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="c0W-GR-9ps"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3U-hv-E5r">
+                    <rect key="frame" x="498" y="571" width="94" height="27"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="@DarwinMonitor">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kj5-YP-kPZ">
+                    <rect key="frame" x="278" y="278" width="45" height="45"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="BFg-EE-b39"/>
+                        <constraint firstAttribute="width" constant="45" id="t1p-Qe-z6m"/>
+                    </constraints>
+                    <state key="normal" image="icon_assistant_monitor.png"/>
+                    <connections>
+                        <action selector="onClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="BCs-6k-Orm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="mMk-Na-ttO" firstAttribute="top" secondItem="XyS-St-Dya" secondAttribute="bottom" constant="18" id="4re-xO-OHH"/>
+                <constraint firstItem="2vb-9e-e4a" firstAttribute="bottom" secondItem="oxW-wA-eg2" secondAttribute="bottom" id="5RC-o4-F9C"/>
+                <constraint firstItem="kj5-YP-kPZ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="60N-ZV-416"/>
+                <constraint firstItem="XyS-St-Dya" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="18" id="8Gg-gW-cpk"/>
+                <constraint firstAttribute="bottom" secondItem="t3U-hv-E5r" secondAttribute="bottom" constant="2" id="8PW-uy-KlN"/>
+                <constraint firstItem="kj5-YP-kPZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8ff-gr-2Lo"/>
+                <constraint firstItem="XyS-St-Dya" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="BqX-Jy-CxC"/>
+                <constraint firstAttribute="trailing" secondItem="2vb-9e-e4a" secondAttribute="trailing" constant="18" id="CAa-5W-c0K"/>
+                <constraint firstItem="1Kv-37-Jrm" firstAttribute="top" secondItem="oxW-wA-eg2" secondAttribute="bottom" constant="18" id="DZb-Um-OtI"/>
+                <constraint firstItem="L6l-YL-mVX" firstAttribute="bottom" secondItem="mMk-Na-ttO" secondAttribute="bottom" id="Ntk-nX-iPk"/>
+                <constraint firstItem="1Kv-37-Jrm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="QbI-RE-oai"/>
+                <constraint firstItem="mMk-Na-ttO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="RU1-Pv-Diw"/>
+                <constraint firstAttribute="trailing" secondItem="t3U-hv-E5r" secondAttribute="trailing" constant="8" id="jjS-M5-tPc"/>
+                <constraint firstAttribute="trailing" secondItem="L6l-YL-mVX" secondAttribute="trailing" constant="18" id="t10-zW-39B"/>
+                <constraint firstItem="oxW-wA-eg2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="udS-rK-8sl"/>
+                <constraint firstAttribute="bottom" secondItem="1Kv-37-Jrm" secondAttribute="bottom" constant="18" id="w5Y-xa-xdg"/>
+                <constraint firstItem="1Kv-37-Jrm" firstAttribute="top" secondItem="oxW-wA-eg2" secondAttribute="bottom" constant="18" id="zkn-gq-Dav"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="DZb-Um-OtI"/>
+                </mask>
+            </variation>
+            <connections>
+                <outletCollection property="colletions" destination="XyS-St-Dya" id="BJn-E5-GXu"/>
+                <outletCollection property="colletions" destination="L6l-YL-mVX" id="zFC-rI-zkY"/>
+                <outletCollection property="colletions" destination="2vb-9e-e4a" id="TCC-Kj-jnG"/>
+                <outletCollection property="colletions" destination="1Kv-37-Jrm" id="BPG-VJ-B2q"/>
+                <outletCollection property="colletions" destination="oxW-wA-eg2" id="dfy-w5-K2m"/>
+                <outletCollection property="colletions" destination="mMk-Na-ttO" id="VnO-Vw-vb0"/>
+                <outletCollection property="colletions" destination="t3U-hv-E5r" id="RAX-Di-7If"/>
+                <outletCollection property="colletions" destination="kj5-YP-kPZ" id="OTK-TK-VJY"/>
+            </connections>
+            <point key="canvasLocation" x="664" y="415"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_assistant_battery.png" width="64" height="64"/>
+        <image name="icon_assistant_cpu.png" width="64" height="64"/>
+        <image name="icon_assistant_crash.png" width="64" height="64"/>
+        <image name="icon_assistant_device.png" width="64" height="64"/>
+        <image name="icon_assistant_monitor.png" width="64" height="64"/>
+        <image name="icon_assistant_network.png" width="64" height="64"/>
+        <image name="icon_assistant_ui.png" width="64" height="64"/>
+    </resources>
+</document>
